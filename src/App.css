@@ -1,0 +1,42 @@
+.converter-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+input {
+  width: 80px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.result {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  margin-top: 20px;
+}
